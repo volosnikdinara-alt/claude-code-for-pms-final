@@ -27,4 +27,8 @@ teaching scenario.
 
 ## Working context
 
-_You'll fill this in during Module 1._
+- Sources: rook-wiki "Customer interviews" database (4 handler interviews, 2–5 Sep 2026) and rook-database `support_tickets` (147 tickets, 29 Jun–7 Sep 2026).
+- Biggest problem in both: responders not getting callouts. 4 of 4 interviewees raised it; 45 of 147 tickets (15 "gone before he could answer" from 12 Aug, 30 "far fewer pings" from 17 Aug), all open.
+- Handler-reported drops: The Undertow ~12/week → 1, Farlight ~12 → 2; silences up to 9 days. Not yet checked against real callout data.
+- Tickets show things interviews missed: supply/requisitions (26), saved-filter follow-up bugs (12), sign-in issues (10). Interviews show overload (Kip/The Gale) that tickets can't.
+- Leading hypotheses (unconfirmed): shorter accept window, first-to-answer wins. Open question: what changed on 12 Aug — next step is querying callout data in rook-database.
