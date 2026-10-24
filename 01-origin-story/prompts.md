@@ -23,7 +23,13 @@ prompt library built from your own questions.
 ---
 
 ### 1.
+What's contradictory or missing, not just in the company documents, but across Rook's wiki, its database, and the files in my repo?
 
 ### 2.
+Based on everything you now know about Rook, what should I be worried about that nobody has told me?
 
 ### 3.
+what else I am missing?
+
+### 4.
+talk to people and ask questios

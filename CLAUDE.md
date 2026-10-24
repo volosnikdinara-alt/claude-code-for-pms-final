@@ -27,4 +27,8 @@ teaching scenario.
 
 ## Working context
 
-_You'll fill this in during Module 1._
+- rook-wiki and rook-database failed to connect all session (proxy 403 in the cloud session); setup check also showed GitHub not signed in. Nothing from the wiki or database has been read yet; CLAUDE.md product/people/vocab summary still to write.
+- From repo code: 4.2 cut offer timeout 90s→60s and reweighted proximity 0.45→0.60, recent acceptance 0.40→0.25. offer.py scores a missed (timed-out) offer the same as a decline (−0.12 vs +0.08 for accept), and scores never decay back (2019 TODO in history.py).
+- Handoff (Priya, 21 Aug) calls the dip mostly seasonal and warns against reverting 4.2; not yet checked against data. Rook Supply reads Dispatch's availability record (contract noted only in availability.py).
+- Contradiction: CHANGELOG says Bulk callout (4.1) and Routing override audit log (4.0) shipped, but their briefs are still open/unowned.
+- Open questions and booking messages for first meetings are in 00-rook/company/notes/first-meetings.md. Customer interviews (Module 2) not yet read.
