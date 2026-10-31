@@ -32,3 +32,8 @@ teaching scenario.
 - Handler-reported drops: The Undertow ~12/week → 1, Farlight ~12 → 2; silences up to 9 days. Not yet checked against real callout data.
 - Tickets show things interviews missed: supply/requisitions (26), saved-filter follow-up bugs (12), sign-in issues (10). Interviews show overload (Kip/The Gale) that tickets can't.
 - Leading hypotheses (unconfirmed): shorter accept window, first-to-answer wins. Open question: what changed on 12 Aug — next step is querying callout data in rook-database.
+- rook.pings (1,696 rows) confirms 12 Aug: missed pings 2.3% → 18.0%, callouts nobody took 5.5% → 11.1%. Pings still go one at a time (no first-to-answer); answer window measured 90s → 60s, same for every ping position.
+- Four responders collapsed from about 12 pings/week to 0–1 with 18–29% taken: The Undertow, Farlight, Vesper, Meteor Mite. Others (e.g. Stormwrack 13 → 19) absorbed them. Vesper and Meteor Mite have no "quiet" tickets; Halfmoon and Ashgrove tickets overstate a small dip.
+- The four miss 70% of first pings vs 17% for others; not slower to turn down (~23s), not explained by area or night pings. Misses came first, ping drop followed days later.
+- 4.2 notes (wiki Releases): ranking weights proximity over acceptance history; wait 90 → 60s; fix for "duplicate push notification when a ping is sent again". No spec, PRs or code available.
+- Open: does the new ranking punish recent misses (eng manager's unanswered 14 Aug question), and did the duplicate-notification fix remove a re-alert? Need the 4.2 ranking config, fix notes and push delivery logs from the staff engineer.
